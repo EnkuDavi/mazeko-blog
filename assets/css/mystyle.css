@@ -1,0 +1,42 @@
+
+.header_area{
+    background-color: black;
+    position: fixed;
+}
+
+li.nav-item > a.nav-link{
+    color: white !important;
+}
+
+ul.dropdown-menu > li.nav-item > a.partial-link{
+    color: black !important;
+}
+
+.banner_area{
+    background-image: url('../img/banner/banner-bg.jpg');
+}
+
+.btn-custome{
+    background-color: #4458dc;
+}
+
+.btn-custome-second{
+    background-color: #5b5b5b;
+}
+
+/* Desktop */
+@media only screen and (min-width: 600px) {
+    .banner_area{
+        height: 600px;
+    }    
+}
+
+
+/* Desktop */
+@media only screen and (max-width: 600px) {
+    div.row > div.img-right{
+        display: none;
+    }
+   
+}
+
